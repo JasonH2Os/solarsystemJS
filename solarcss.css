@@ -34,3 +34,17 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+.linkedin-button {
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.linkedin-button:hover {
+    background-color: #005e93;
+}
