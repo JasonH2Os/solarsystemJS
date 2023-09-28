@@ -12,7 +12,7 @@ Usage
 Clone this repository:
 
 Copy code
-git clone 
+git clone https://github.com/JasonH2Os/solarsystemJS.git
 
 
 Open solarsys.html in your preferred browser.
