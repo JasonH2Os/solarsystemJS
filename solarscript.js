@@ -36,6 +36,14 @@ function drawStars() {
         ctx.fill();
     }
 }
+function draw() {
+    // Set the background to black
+    ctx.fillStyle = 'black';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Now draw the stars and the solar system
+    drawStars();
+}
 
 // Modify the keyframes to handle the orbit
 const style = document.createElement('style');
