@@ -25,6 +25,17 @@ planetsData.forEach(planet => {
     
     solarSystem.appendChild(planetDiv);
 });
+function drawStars() {
+    for (let i = 0; i < numberOfStars; i++) {
+        const x = randomBetween(0, canvas.width);
+        const y = randomBetween(0, canvas.height);
+        const starSize = randomBetween(1, 3);
+        ctx.fillStyle = 'white';
+        ctx.beginPath();
+        ctx.arc(x, y, starSize, 0, 2 * Math.PI);
+        ctx.fill();
+    }
+}
 
 // Modify the keyframes to handle the orbit
 const style = document.createElement('style');
